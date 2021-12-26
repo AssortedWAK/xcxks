@@ -1,0 +1,4 @@
+view,button{margin:30rpx;}
+view.title{text-align: center;color:red;font-size: 50rpx;}
+input{border: 1px solid #ccc;margin-top: 10px;height: 80rpx;}
+button{background-color: blue;}
