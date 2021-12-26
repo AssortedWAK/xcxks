@@ -1,0 +1,6 @@
+page{background-color: #eee;}
+.content{width: 80vw;margin:10vw;}
+.content>view{font-size:2.8vh;border:1px solid #ff4c91;border-radius:10rpx;padding:1.5vh 40rpx;margin-bottom:1.5vh;color: #ff4c91;}
+.content button{font-size:3vh;line-height: 5.5vh;background-color: #ff4c91;color:#fff;}
+.content picker{padding: 0.7vh 0;}
+.content .phcolor{color: #ff4c91;}

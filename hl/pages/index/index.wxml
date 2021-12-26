@@ -1,0 +1,16 @@
+<form bindsubmit="formSubmit">
+<view class="content">
+<view>
+<input name="xm" type="text"  placeholder="输入您的姓名:" placeholder-class="phcolor" />
+</view>
+<view>
+<input name="phone" type="text"  placeholder="输入您的手机号:" placeholder-class="phcolor" />
+</view>
+<view>
+<picker name="num"  bindchange="pickerChange"   range="{{picker.arr}}">
+参加婚礼人数：{{picker.arr[picker.index]}}
+</picker>
+</view>
+<button form-type="submit" >提交</button>
+</view>
+</form>
