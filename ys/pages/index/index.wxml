@@ -1,0 +1,16 @@
+<view class="tab">
+<view class="tab-item {{item==0?'active':''}}" bindtap="changeItem" id="0">粉色</view>
+<view class="tab-item {{item==1?'active':''}}" bindtap="changeItem" id="1">绿色</view>
+<view class="tab-item {{item==2?'active':''}}" bindtap="changeItem" id="2">蓝色</view>
+</view>
+<swiper current="{{item}}"  bindchange="changeTab" circular="true">
+<swiper-item>
+<view style="background:pink;"></view>
+</swiper-item>
+<swiper-item>
+<view style="background:green;"></view>
+</swiper-item>
+<swiper-item>
+<view style="background:blue;"></view>
+</swiper-item>
+</swiper>

@@ -1,0 +1,15 @@
+Page({
+	data:{
+		item:0
+	},
+	changeItem(e){
+		this.setData({
+			item:e.currentTarget.id
+		})
+	},
+	changeTab(e){
+		this.setData({
+			item:e.detail.current
+		})
+	}
+})

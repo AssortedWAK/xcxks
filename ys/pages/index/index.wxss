@@ -1,0 +1,5 @@
+.tab {display: flex;background-color:#000;color:#fff;}
+.tab-item {flex: 1;font-size: 10pt;text-align: center;line-height: 72rpx;border-bottom: 6rpx solid #eee;}
+.active{color: yellow;border-bottom-color:red;}
+swiper{height:400rpx;}
+swiper view{height:100%;}
