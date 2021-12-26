@@ -1,0 +1,15 @@
+Page({
+  data:{
+  name:'王五',
+  gender:[
+  {name:'男',value:'0',checked:false},
+  {name:'女',value:'1',checked:true}
+  ],
+  sports:[
+  {zm:'跑步',value:'pb',checked:false},
+  {zm:'打篮球',value:'dlq',checked:true},
+  {zm:'踢足球',value:'tzq',checked:false},
+  {zm:'跳绳',value:'ts',checked:true}
+  ]
+  }
+  })

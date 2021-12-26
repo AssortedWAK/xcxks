@@ -1,0 +1,24 @@
+<view class="container">
+<form>
+<view class="nn">
+<text>姓名:</text>
+<input type="text" name="name" value = "{{name}}" />
+</view>
+<view class="ss">
+<text>性别:</text>
+<radio-group name="gender">
+<label wx:for="{{gender}}"    wx:key="value">
+<radio value="{{item.value}}" checked = "{{item.checked}}" />{{item.name}}
+</label>
+</radio-group>
+</view>
+<view class="zz">
+<text>喜欢的运动:</text>
+<checkbox-group name="sports">
+<label wx:for="{{sports}}" wx:key="*this">
+<checkbox value="{{item.value}}" checked="{{item.checked}}" />{{item.zm}}
+</label>
+</checkbox-group>
+</view>
+</form>
+</view>
